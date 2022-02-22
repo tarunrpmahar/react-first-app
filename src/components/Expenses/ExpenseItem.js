@@ -7,7 +7,7 @@ const ExpenseItem = (props) => {
   return (
     //Card is custom tag here hence we need to define classname
     <Card className='expense-item'>
-      {/* <ExpenseDate></ExpenseDate> or because there is no content between opening and closing tag*/} 
+      {/* <ExpenseDate></ExpenseDate> or because there is no content between opening and closing tag so we can use self closing tag*/} 
       <ExpenseDate date = {props.date}/>
       <div className='expense-item__description'>
         <h2>{props.title}</h2>
